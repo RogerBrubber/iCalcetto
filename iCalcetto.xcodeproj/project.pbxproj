@@ -17,6 +17,9 @@
 		564522A4289AC74A00184ADD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645227A289AC74900184ADD /* ContentView.swift */; };
 		564522A5289AC74A00184ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5645227B289AC74A00184ADD /* Assets.xcassets */; };
 		564522A6289AC74A00184ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5645227B289AC74A00184ADD /* Assets.xcassets */; };
+		56D600D2289D3B2300725222 /* Partita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D600D1289D3B2300725222 /* Partita.swift */; };
+		56D600D4289D3B5F00725222 /* Giocatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D600D3289D3B5F00725222 /* Giocatore.swift */; };
+		56D600D6289D3B6800725222 /* Impostazioni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D600D5289D3B6800725222 /* Impostazioni.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		56452299289AC74A00184ADD /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5645229D289AC74A00184ADD /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5645229F289AC74A00184ADD /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		56D600D1289D3B2300725222 /* Partita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partita.swift; sourceTree = "<group>"; };
+		56D600D3289D3B5F00725222 /* Giocatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giocatore.swift; sourceTree = "<group>"; };
+		56D600D5289D3B6800725222 /* Impostazioni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impostazioni.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,7 @@
 		56452273289AC74900184ADD = {
 			isa = PBXGroup;
 			children = (
+				56D600D0289D3AEF00725222 /* Views */,
 				56452278289AC74900184ADD /* Shared */,
 				56452287289AC74A00184ADD /* macOS */,
 				56452290289AC74A00184ADD /* Tests iOS */,
@@ -139,6 +146,16 @@
 				5645229F289AC74A00184ADD /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		56D600D0289D3AEF00725222 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56D600D1289D3B2300725222 /* Partita.swift */,
+				56D600D3289D3B5F00725222 /* Giocatore.swift */,
+				56D600D5289D3B6800725222 /* Impostazioni.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D600D6289D3B6800725222 /* Impostazioni.swift in Sources */,
+				56D600D2289D3B2300725222 /* Partita.swift in Sources */,
 				564522A3289AC74A00184ADD /* ContentView.swift in Sources */,
 				564522A1289AC74A00184ADD /* iCalcettoApp.swift in Sources */,
+				56D600D4289D3B5F00725222 /* Giocatore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
